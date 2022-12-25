@@ -1,0 +1,62 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Preprocessed files
+*.i
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+bin/
+bin-int/
+.vscode/
+.sconsign.dblite
+.vs
+*.props
+*.sln
+*.vcxproj
+*.filters
+*.user
+cpp-utils-tests_project_suppressions.cfg
+*.diagsession
+CMakeSettings.json
+
+Makefile
+*.suppress
+**.pyc
+*/__pycache__/*
+
+os/bootloader/image.fat
+
+
+benchmark/obj/*
+game/obj/*
+os/bootloader/obj/*
+
