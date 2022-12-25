@@ -6,12 +6,15 @@
 //
 // import "lstd.h";
 // 
-// This imports lstd.basic (usual memory stuff, arrays, strings, etc.)
+// This imports lstd.basic (usual memory stuff, arrays, strings, formatting, etc.)
 //
 // for other modules in the library do the usual import:
 //
-// import lstd.fmt;
+// import lstd.atomic;
 // import lstd.os;
+// import lstd.path;
+// import lstd.thread;
+// import lstd.big_integer;
 //
 
 #include "lstd/common.h"
